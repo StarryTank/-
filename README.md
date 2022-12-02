@@ -46,6 +46,7 @@
 ├─main.js // 初始化入口
 ├─package.json // 配置信息
 ```
+```
 ## 2.3 pages 模块/页面
 1. home 首页模块
 2. mine 我的模块
