@@ -1,0 +1,1 @@
+<view class="other-login data-v-484cd15e"><view class="login-wx data-v-484cd15e"><button type="primary" open-type="getUserInfo" size="mini" data-event-opts="{{[['getuserinfo',[['getUserInfo',['$event']]]]]}}" bindgetuserinfo="__e" class="data-v-484cd15e">微信登录</button></view></view>

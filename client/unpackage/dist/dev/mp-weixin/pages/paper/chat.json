@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "bottom-input": "/components/bottom-input/bottom-input",
+    "chat-list": "/pages/paper/cpns/chat-list"
+  }
+}

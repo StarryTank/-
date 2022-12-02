@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/home/search",
+    "pages/home/release",
+    "pages/home/detail",
+    "pages/news/news",
+    "pages/news/news-topic-cate",
+    "pages/news/news-topic-detail",
+    "pages/paper/paper",
+    "pages/paper/friend",
+    "pages/paper/chat",
+    "pages/mine/mine",
+    "pages/mine/set",
+    "pages/mine/edit-pwd",
+    "pages/mine/bind-email",
+    "pages/mine/edit-info",
+    "pages/mine/feedback",
+    "pages/mine/about",
+    "pages/mine/login",
+    "pages/mine/user-space"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "社交论坛",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#ADADAD",
+    "selectedColor": "#278E6F",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/static/img/tabbar/home.png",
+        "selectedIconPath": "/static/img/tabbar/home-ed.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "新鲜事",
+        "iconPath": "/static/img/tabbar/news.png",
+        "selectedIconPath": "/static/img/tabbar/news-ed.png"
+      },
+      {
+        "pagePath": "pages/paper/paper",
+        "text": "小纸条",
+        "iconPath": "/static/img/tabbar/paper.png",
+        "selectedIconPath": "/static/img/tabbar/paper-ed.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/static/img/tabbar/mine.png",
+        "selectedIconPath": "/static/img/tabbar/mine-ed.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

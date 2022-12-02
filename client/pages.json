@@ -1,0 +1,445 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页
+		// #ifdef MP-WEIXIN
+		{ // 首页
+			"path": "pages/home/home",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		// #endif
+		{ // 我的/登录
+			"path": "pages/mine/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// #ifdef H5 || APP-PLUS
+		{ // 首页
+			"path": "pages/home/home",
+			"style": {
+				// App生效：
+				"app-plus": {
+					"bounce": "none", // 回弹效果
+					"scrollIndicator": "none", // 隐藏滚动条
+					// 导航栏
+					"titleNView": {
+						// 搜索框
+						"searchInput": {
+							"align": "center",
+							"backgroundColor": "#F7F7F7",
+							"borderRadius": "20px",
+							"placeholder": "搜索新鲜事",
+							"disabled": true
+						},
+						// 按钮
+						"buttons": [
+							// 左边
+							{
+								"float": "left",
+								"color": "#01906c",
+								"colorPressed": "#6ec679",
+								"text": "\ue609",
+								"fontSize": "24px",
+								"fontSrc": "/static/font/iconfont.ttf"
+							},
+							// 右边
+							{
+								"float": "right",
+								"color": "#01906c",
+								"colorPressed": "#6ec679",
+								"text": "\ue708",
+								"fontSize": "24px",
+								"fontSrc": "/static/font/iconfont.ttf"
+							}
+						]
+					}
+				}
+			}
+		},
+		// #endif
+		// #ifdef MP-WEIXIN
+		{ // 首页/搜索
+			"path": "pages/home/search",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		// #endif
+		// #ifdef H5 || APP-PLUS
+		{ // 首页/搜索
+			"path": "pages/home/search",
+			"style": {
+				// App生效：
+				"app-plus": {
+					"bounce": "none", // 回弹效果
+					"scrollIndicator": "none", // 隐藏滚动条
+					// 导航栏
+					"titleNView": {
+						// "autoBackButton": false, // 标题栏控件是否显示左侧返回按钮
+						// 搜索框
+						"searchInput": {
+							"align": "left",
+							"backgroundColor": "#F7F7F7",
+							"borderRadius": "20px",
+							"placeholder": "请输入内容",
+							"disabled": false
+						},
+						// 按钮
+						"buttons": [
+							// 右边
+							{
+								"float": "right",
+								"color": "#82848a",
+								"colorPressed": "#c8c9cc",
+								"text": "搜索",
+								"fontSize": "14px"
+							}
+						]
+					}
+				}
+			}
+		},
+		// #endif
+		// #ifdef MP-WEIXIN
+		{ // 首页/发布
+			"path": "pages/home/release",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		// #endif
+		// #ifdef H5 || APP-PLUS
+		{ // 首页/发布
+			"path": "pages/home/release",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false // 禁用原生导航栏
+				}
+			}
+		},
+		// #endif
+		{ // 首页/详情
+			"path": "pages/home/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"type": "share",
+							"float": "right"
+						}]
+					}
+				}
+			}
+		},
+		{ // 新鲜事
+			"path": "pages/news/news",
+			"style": {
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				// App生效：
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": false // 隐藏系统导航栏
+				}
+			}
+		},
+		{ // 新鲜事/话题/分类
+			"path": "pages/news/news-topic-cate",
+			"style": {
+				"navigationBarTitleText": "话题分类",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, 
+		{ // 新鲜事/话题/详情
+			"path": "pages/news/news-topic-detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"scrollIndicator": "none", // 隐藏滚动条
+					"titleNView": {
+						"type": "transparent", // 透明渐变
+						"buttons": [{
+							"type": "menu"
+						}]
+					}
+				}
+			}
+		},
+		// #ifdef MP-WEIXIN
+		{ // 小纸条
+			"path": "pages/paper/paper",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		// #endif
+		// #ifdef H5 || APP-PLUS
+		{ // 小纸条
+			"path": "pages/paper/paper",
+			"style": {
+				"enablePullDownRefresh": true, // 下拉刷新
+				// App生效：
+				"app-plus": {
+					"titleNView": {
+						"titleText": "小纸条",
+						"buttons": [
+							// 左边
+							{
+								"float": "left",
+								"color": "#01906c",
+								"colorPressed": "#6ec679",
+								"text": "\ue667",
+								"fontSize": "24px",
+								"fontSrc": "/static/font/iconfont.ttf"
+							},
+							// 右边
+							{
+								"float": "right",
+								"color": "#01906c",
+								"colorPressed": "#6ec679",
+								"text": "\ue652",
+								"fontSize": "24px",
+								"fontSrc": "/static/font/iconfont.ttf"
+							}
+						]
+					}
+				}
+			}
+		},
+		// #endif
+		// #ifdef MP-WEIXIN
+		{ // 小纸条/好友列表
+			"path": "pages/paper/friend",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		// #endif
+		// #ifdef H5 || APP-PLUS
+		{ // 小纸条/好友列表
+			"path": "pages/paper/friend",
+			"style": {
+				// App生效：
+				"app-plus": {
+					"bounce": "none", // 回弹效果
+					"scrollIndicator": "none", // 隐藏滚动条
+					// 动画效果
+					"animationType": "slide-in-left",
+					// 导航栏
+					"titleNView": {
+						// 取消返回按钮（h5页面单独用css控制）
+						"autoBackButton": false,
+						// 搜索框
+						"searchInput": {
+							"align": "center",
+							"backgroundColor": "#F7F7F7",
+							"borderRadius": "20px",
+							"placeholder": "搜索用户",
+							"disabled": true
+						},
+						// 按钮
+						"buttons": [
+							// 右边
+							{
+								"float": "right",
+								"color": "#000",
+								"colorPressed": "#9CA3AF",
+								"fontSize": "15px",
+								"text": "取消"
+							}
+						]
+					}
+				}
+			}
+		},
+		// #endif
+		{ // 小纸条/好友列表/聊天
+			"path": "pages/paper/chat",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none", // 回弹效果
+					"scrollIndicator": "none", // 隐藏滚动条
+					// 动画效果
+					"animationType": "slide-in-left",
+					// 导航栏
+					"titleNView": {
+						// 取消返回按钮（h5页面单独用css控制）
+						"autoBackButton": false,
+						// 搜索框
+						"searchInput": {
+							"align": "center",
+							"backgroundColor": "#F7F7F7",
+							"borderRadius": "20px",
+							"placeholder": "搜索用户",
+							"disabled": true
+						},
+						// 按钮
+						"buttons": [
+							// 右边
+							{
+								"float": "right",
+								"color": "#000",
+								"colorPressed": "#D1D5DB",
+								"text": "\ue622",
+								"fontSize": "24px",
+								"fontSrc": "/static/font/iconfont.ttf"
+							}
+						]
+					}
+				}
+			}
+		},//公共聊天室
+		{
+			"path": "pages/paper/chatall",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none", // 回弹效果
+					"scrollIndicator": "none", // 隐藏滚动条
+					// 动画效果
+					"animationType": "slide-in-left",
+					// 导航栏
+					"titleNView": {
+						// 取消返回按钮（h5页面单独用css控制）
+						"autoBackButton": false,
+						// 搜索框
+						"searchInput": {
+							"align": "center",
+							"backgroundColor": "#F7F7F7",
+							"borderRadius": "20px",
+							"placeholder": "搜索用户",
+							"disabled": true
+						},
+						// 按钮
+						"buttons": [
+							// 右边
+							{
+								"float": "right",
+								"color": "#000",
+								"colorPressed": "#D1D5DB",
+								"text": "\ue622",
+								"fontSize": "24px",
+								"fontSrc": "/static/font/iconfont.ttf"
+							}
+						]
+					}
+				}
+			}			
+		},
+		{ // 我的
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				// App生效：
+				"app-plus": {
+					"titleNView":"none"
+				}
+			}
+		},
+		{ // 我的/设置
+			"path": "pages/mine/set",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		}, { // 我的/设置/修改密码
+			"path": "pages/mine/edit-pwd",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		}, { // 我的/设置/绑定邮箱
+			"path": "pages/mine/bind-email",
+			"style": {
+				"navigationBarTitleText": "绑定邮箱"
+			}
+		}, { // 我的/设置/绑定邮箱
+			"path": "pages/mine/edit-info",
+			"style": {
+				"navigationBarTitleText": "修改资料"
+			}
+		}, { // 我的/设置/意见反馈
+			"path": "pages/mine/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+			}
+		}, { // 我的/设置/关于社区
+			"path": "pages/mine/about",
+			"style": {
+				"navigationBarTitleText": "关于社区"
+			}
+		},
+		{ // 我的/个人空间
+			"path": "pages/mine/user-space",
+			"style": {
+				"navigationBarTitleText": "个人空间",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"type": "menu"
+						}]
+					}
+				}
+			}
+		}
+	],
+	// 全局样式
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "社交论坛",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF",
+		"app-plus": {
+			"scrollIndicator": "none"
+		}
+	},
+	// 底部标签栏
+	"tabBar": {
+		"color": "#ADADAD", // tab 上的文字颜色
+		"selectedColor": "#278E6F", // tab 上的文字选中时的颜色
+		"backgroundColor": "#FFFFFF", // tab 的背景颜色
+		"borderStyle": "black", // tabbar 上边框的颜色
+		"list": [{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "/static/img/tabbar/home.png",
+				"selectedIconPath": "/static/img/tabbar/home-ed.png"
+			},
+			{
+				"pagePath": "pages/news/news",
+				"text": "新鲜事",
+				"iconPath": "/static/img/tabbar/news.png",
+				"selectedIconPath": "/static/img/tabbar/news-ed.png"
+			},
+			{
+				"pagePath": "pages/paper/paper",
+				"text": "小纸条",
+				"iconPath": "/static/img/tabbar/paper.png",
+				"selectedIconPath": "/static/img/tabbar/paper-ed.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "/static/img/tabbar/mine.png",
+				"selectedIconPath": "/static/img/tabbar/mine-ed.png"
+			}
+		]
+	}
+	// "condition": { //模式配置，仅开发期间生效
+	// 	"current": 0, //当前激活的模式(list 的索引项)
+	// 	"list": [{
+	// 		"name": "", //模式名称
+	// 		"path": "pages/search/search", //启动页面，必选
+	// 		"query": "" //启动参数，在页面的onLoad函数里面得到
+	// 	}]
+	// }
+}

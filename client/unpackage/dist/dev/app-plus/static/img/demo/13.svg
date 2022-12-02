@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="153px" height="307px" viewBox="0 0 153 307" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>植物-芦荟草</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="63.1714764%" x2="77.393136%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#B2E5E9" offset="0%"></stop>
+            <stop stop-color="#37ACB6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="23.3996173%" x2="84.9492239%" y2="87.5908259%" id="linearGradient-2">
+            <stop stop-color="#B2E5E9" offset="0%"></stop>
+            <stop stop-color="#B1E2E7" offset="68.3620527%"></stop>
+            <stop stop-color="#83D0D8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="65.1307966%" y1="37.2989122%" x2="50%" y2="83.2163191%" id="linearGradient-3">
+            <stop stop-color="#ABF2F6" offset="0%"></stop>
+            <stop stop-color="#4AC2CA" offset="59.1913708%"></stop>
+            <stop stop-color="#2FA8B3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="植物" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-637.000000, -389.000000)">
+            <g id="植物-芦荟草" transform="translate(617.000000, 389.000000)">
+                <path d="M68,229 L147,229 L139.210938,304.340909 C129.9375,306.113636 119.894531,307 109.082031,307 C98.2695312,307 87.4570312,306.113636 76.6445312,304.340909 L68,229 Z" id="Rectangle-9" fill="#FCDCCF"></path>
+                <ellipse id="Oval-8" fill="#F4A789" cx="107.5" cy="227.5" rx="39.5" ry="7.5"></ellipse>
+                <path d="M8.26326764,136.712423 C20.1852185,145.429624 27.4744331,151.62991 30.1309114,155.31328 C56.7928807,192.281744 77.7458536,211.943437 106.98983,218.298361 C131.520761,223.629106 126.286705,203.673361 106.98983,183.540548 C101.18347,177.482657 84.9298634,165.645036 58.229011,154.027684 C48.9983756,150.0115 32.3431278,144.239747 8.26326764,136.712423 Z" id="Path-10" fill="url(#linearGradient-1)" transform="translate(65.873357, 177.942811) rotate(14.000000) translate(-65.873357, -177.942811) "></path>
+                <path d="M55.4765625,0.0390625 C107.284079,55.2040482 123.337464,125.641548 103.636719,211.351563 C99.0091217,231.484375 103.349152,230.91964 107.636719,229.996094 C110.039029,229.478634 114.509082,227.089311 121.046875,222.828125 C130.159341,215.065619 135.904133,206.161973 138.28125,196.117188 C146.859965,159.866823 139.711507,114.928443 135.046875,98.6171875 C128.443426,75.5262876 101.919988,42.6669126 55.4765625,0.0390625 Z" id="Path-9" fill="url(#linearGradient-2)"></path>
+                <path d="M171.164062,110.710938 C166.243932,126.377746 162.359427,135.882402 159.510549,139.224906 C126.64935,177.779976 111.21875,199.017507 111.21875,218.9375 C111.21875,234.365154 129.41808,239.004741 149.128906,200.960938 C153.499813,192.524664 164.084533,174.283641 170.883068,148.237867 C172.60631,141.635975 172.699975,129.126998 171.164062,110.710938 Z" id="Path-11" fill="url(#linearGradient-3)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

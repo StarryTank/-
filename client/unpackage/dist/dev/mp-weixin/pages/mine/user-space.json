@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "个人空间",
+  "usingComponents": {
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
+    "u-sticky": "/uni_modules/uview-ui/components/u-sticky/u-sticky",
+    "u-loadmore": "/uni_modules/uview-ui/components/u-loadmore/u-loadmore",
+    "u-popup": "/uni_modules/uview-ui/components/u-popup/u-popup",
+    "info-list": "/pages/home/cpns/info-list"
+  }
+}

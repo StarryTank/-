@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "u-gap": "/uni_modules/uview-ui/components/u-gap/u-gap",
+    "popup-share": "/components/popup-share/popup-share",
+    "bottom-input": "/components/bottom-input/bottom-input",
+    "info-list": "/pages/home/cpns/info-list"
+  }
+}
