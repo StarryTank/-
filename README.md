@@ -37,6 +37,7 @@
 └─uni.scss // 这里是uni-app内置的常用样式变量 
 ```
 ## 2.2 后端目录
+```
 ├─dataModel // 数据库通信模板
 ├─dncoon // 连接数据库
 ├─node_modules
@@ -46,7 +47,7 @@
 ├─main.js // 初始化入口
 ├─package.json // 配置信息
 ```
-```
+
 ## 2.3 pages 模块/页面
 1. home 首页模块
 2. mine 我的模块
